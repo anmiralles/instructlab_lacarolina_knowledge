@@ -1,0 +1,26 @@
+version: 2
+task_description: 'Teach the model about La Carolina'
+created_by: amiralle
+domain: geography
+seed_examples:
+  - question: When was La Carolina founded?
+    answer: It was founded in 1767.
+  - question: How is also La Carolina known?
+    answer: It is also known as the gateway to Andalusia.
+  - question: Who founded La Carolina?
+    answer: La Carolina was founded in 1767 by king Charles III of Spain.
+  - question: What is the population of La Carolina?
+    answer: In 2018 the population of La Carolina was 15,306 people.
+  - question: Why was La Carolina important in the past?
+    answer: "La Carolina was formerly the capital of the Intendencia of the \n
+      Nuevas Poblaciones de Andalucía y Sierra Morena, \n
+      founded in this formerly remote and desolate area of the Sierra Morena \n
+      in 1767 by King Charles III."
+  - question: What was the plan for ctreatin Nuevas Poblaciones?
+    answer: The object of the plan, drawn up by his minister Pablo de Olavide, \n
+      administrator of Andalusia, was to populate the area around Despeñaperros gorge.
+document:
+  repo: https://github.com/anmiralles/instructlab_lacarolina_knowledge.git
+  commit: 
+  patterns:
+    - lacarolina_knowledge.md
